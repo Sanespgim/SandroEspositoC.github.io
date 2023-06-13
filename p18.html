@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mr+Dafoe">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica 18</title>
+    <link rel="stylesheet" href="main.css">
+
+<style>
+    body {
+        background-color: white;
+        color: #FFFFFB;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    section {
+        padding: 30vh 0;
+    }
+
+    .one {
+        background: #ffc145;
+    }
+
+    .one__icon {
+        width: 100px;
+        height: 100px;
+        background: rgba(0,0,0,0.3);
+        font-size: 2em;
+        margin: 0 auto;
+        border-radius: 50%;
+        color: rgba(0,0,0,0.3);
+        display: grid;
+        place-items: center;
+    }
+
+    .two {
+        background: #FF6B6C;
+    }
+
+    .two__image {
+        clip-path: polygon(10% 9%, 1% 84%, 37% 85%, 25% 25%, 75% 25%, 75% 75%, 25% 75%, 37% 85%, 100% 85%, 88% 8%);
+    }
+
+    .three {
+        background: #5B5F97;
+    }
+    .box {
+        font-family: 'Mr Dafoe  ';
+        font-size: 1.2em;
+        font-weight: normal;
+        background-color: #FFF;
+        border-radius: 7px;
+        color: #BBB;
+        width: 75%;
+        margin: 0 auto;
+        padding: 10px;
+        position: relative;
+
+
+    }   
+
+    .ribbon {
+        width: 0px;
+        height: 35px;
+        border: 15px solid #b13a22;
+        border-bottom: 15px solid transparent;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        position: absolute;
+        top: -5px;
+        right: 5%;
+    }
+
+    .ribbon:hover {
+        transform: scaleY(1.5);
+        transform-origin: top;
+        transition: transform 0.2s;
+    }
+
+</style>
+
+
+
+
+</head>
+<body>
+    
+    <div class="grid-layout">
+        <header>
+          <h1>Practicas HTML/CSS 2020</h1>
+          <p class="header__left-side"><strong>Sandro Esposito Giménez</strong></p>
+          <p class="header__right-side"><strong>Grupo</strong></p>
+        </header>
+        <nav>
+          <a href="p1.html">Practica 1</a>
+          <a href="p2.html">Practica 2</a>
+          <a href="p3.html">Practica 3</a>
+          <a href="p4.html">Practica 4</a>
+          <a href="p5.html">Practica 3</a>
+          <a href="p6.html">Practica 6</a>
+          <a href="p7.html">Practica 7</a>
+          <a href="p8.html">Practica 8</a>
+          <a href="p9.html">Practica 9</a>
+          <a href="p10.html">Practica 10</a>
+          <a href="p11.html">Practica 11</a>
+          <a href="p12.html">Practica 12a</a>
+          <a href="p13.html">Practica 12b</a>
+          <a href="p14.html">Practica 12c</a>
+          <a href="p15.html">Practica 13</a>
+          <a href="p16.html">Practica 14</a>
+          <a href="p17.html">Practica 12c</a>
+          <a href="p18.html">Practica 13</a>
+          <a href="p19.html">Practica 14</a>
+        </nav>
+    
+        <div class="main">
+            <section class="one">
+                <h1>Icon</h1>
+                <div class="one__icon">:)</div>
+              </section>
+            
+              <section class="two">
+                <h1>Clip images</h1>
+                <img class="two__image" src="https://unsplash.it/300/500" alt="fillmurray">
+              </section>
+            
+              <section class="three">
+                <h1>Bookmark</h1>
+                <div class="box">
+                  <div class="ribbon"></div>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, ea at, nostrum ipsa necessitatibus ullam aliquam ut labore eos incidunt dolorum est. Veniam similique, rerum unde rem explicabo eveniet exercitationem.</p>
+                  <p>Sed eius, error, itaque neque harum quia aliquam natus exercitationem. Est mollitia officiis tenetur debitis eligendi, cupiditate numquam assumenda dolore a nostrum facilis. Rem, nesciunt dolorem similique suscipit mollitia! Dolorum?</p>
+                  <p>Rem maxime, tempora asperiores, obcaecati quisquam harum nemo distinctio, mollitia repudiandae temporibus odio! Nostrum rerum ea saepe necessitatibus fuga neque ab ipsa? Voluptatem deleniti expedita minus aut cum fuga veniam.</p>
+                </div>
+              </section>
+        </div>
+    
+      </div>
+
+</body>
+</html>
